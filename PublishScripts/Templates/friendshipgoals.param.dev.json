@@ -1,0 +1,32 @@
+{
+  "siteName": {
+    "value": "friendshipgoals"
+  },
+  "hostingPlanName": {
+    "value": "friendshipgoals"
+  },
+  "siteLocation": {
+    "value": "West US"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "serverName": {
+    "value": "friendshipgoals"
+  },
+  "serverLocation": {
+    "value": "West US"
+  },
+  "administratorLogin": {
+    "value": "friendshipgoalsmainuser"
+  },
+  "administratorLoginPassword": {
+    "value": "tP^HqCDwQVCeHLfd5Rj-N?e?-kNS9!wq"
+  },
+  "databaseName": {
+    "value": "friendshipgoals_db"
+  }
+}

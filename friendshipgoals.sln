@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "friendshipgoals", "friendshipgoals\friendshipgoals.csproj", "{EFABFE2D-3549-4AA3-9053-113D82250198}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{36C97666-536B-4E75-8465-B0FA7CE0097C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{FBCB13A5-159D-4465-9951-50642BBDDD61}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{AB54F3B3-B0BA-47D3-819E-985FCC88D093}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\friendshipgoals.json = PublishScripts\Templates\friendshipgoals.json
+		PublishScripts\Templates\friendshipgoals.param.dev.json = PublishScripts\Templates\friendshipgoals.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFABFE2D-3549-4AA3-9053-113D82250198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFABFE2D-3549-4AA3-9053-113D82250198}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFABFE2D-3549-4AA3-9053-113D82250198}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFABFE2D-3549-4AA3-9053-113D82250198}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FBCB13A5-159D-4465-9951-50642BBDDD61} = {36C97666-536B-4E75-8465-B0FA7CE0097C}
+		{AB54F3B3-B0BA-47D3-819E-985FCC88D093} = {36C97666-536B-4E75-8465-B0FA7CE0097C}
+	EndGlobalSection
+EndGlobal
